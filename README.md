@@ -46,7 +46,7 @@ A simple web-based application to manage **tour packages** and **tour bookings**
 
 ## 📸 Screenshots
 
-![Hompages](assets/images/homapages.jpg)
+![Hompages](assets/images/homepages.jpg)
 
 ![Form](assets/images/form_paket.jpg)
 
