@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.main-container {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.img-header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-header img {
+    width: 20%;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-header a {
+    flex: 1;
+    text-decoration: none;
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu-header a:hover {
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-header a.active-menu {
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+}
+
+.konten-pariwisata {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-container {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+.paket-container {
+    width: 350px;
+    margin: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    height: fit-content;
+}
+
+.paket-container a {
+    display: block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    background-color: maroon;
+    color: white;
+    padding: 5px 8px;
+    margin-top: 10px;
+}
+
+.paket-container a:hover {
+    background-color: rgb(168, 0, 0);
+    font-weight: bold;
+}
+
+.paket-container h3 {
+    color: darkslategrey;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.paket-container h4 {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+.paket-container img {
+    width: 100%;
+}
+
+.promosi-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container {
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.video-container h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto;
+}
+
+.brand-container {
+    width: 45%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.brand-container img {
+    width: 45%;
+}
+
+.brand-container h1 {
+    color: white;
+    font-size: 3.5vw;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.brand-container h2 {
+    color: white;
+    font-size: 2vw;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form-container, .list-container {
+    padding: 10px;
+}
+
+.form-container h2, .list-container h2 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.item-layanan {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-layanan label {
+    width: 200px;
+}
+
+input[type="text"], input[type="date"], input[type="number"], select {
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+}
+
+.layanan-container {
+    margin-bottom: 15px;
+}
+
+input[type="submit"], button {
+    width: 80px;
+    padding: 7px 0;
+}
+
+input[type="submit"] {
+    background-color: darkgreen;
+}
+
+#btn-hitung {
+    background-color: orange;
+}
+
+#btn-reset {
+    background-color: red;
+}
+
+input[type="submit"], #btn-hitung, #btn-reset {
+    color: white;
+}
+
+input[type="submit"]:hover, #btn-hitung:hover, #btn-reset:hover {
+    font-weight: bold;
+}
+
+#harga_paket, #jumlah_tagihan, #jumlah_peserta, #jumlah_hari {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.btn-link a:hover {
+    font-weight: bold;
+}
+
+.btn-link a:first-child {
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+.btn-link a:last-child {
+    background-color: red;
+}
+
+.btn-link a:first-child, .btn-link a:last-child {
+    display: block;
+    color: white;
+    padding: 5px 0;
+    text-decoration: none;
+    width: 60px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #34495e;
+    color: white;
+    width: 90%;
+    margin: auto;
+    padding: 30px 10px;
+}
+
+.footer h3 {
+    text-align: center;
+    font-weight: normal;
+}
